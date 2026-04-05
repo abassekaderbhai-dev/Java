@@ -1,5 +1,3 @@
-/******************** Test de la classe *****************************/
-
 public class TestCompteBancaire
 {
 
@@ -17,6 +15,6 @@ public static void main(String args[]) {
     boolean solde4 = Jawed.ajouter(60);
     System.out.println("1er retrait Abasse: " + solde2 + " solde : " + Abasse.getSolde() + " 2nd retrait Abasse : " + solde3 + " solde : " + Abasse.getSolde() + 
     " 1er depot Jawed : " + solde4 + " solde : " + Jawed.getSolde());
-}// fin du main
-} // fin de la classe
+}
+} 
 

@@ -1,15 +1,9 @@
-/** correction de CompteBancaire suite aux premiers Tps
-*/
-
-
 public class CompteBancaire {
    private String nom;
    private String numero;
    private float solde;
 
-   /**
-   * Constructeurs
-   */
+   
    public CompteBancaire(String nomP, String noC, float depot){
       this.nom = nomP;
       this.numero = noC;
@@ -23,7 +17,7 @@ public class CompteBancaire {
    }
 
 
-    // getters setters
+
    public String getNom(){
       return this.nom;
    }
@@ -77,32 +71,5 @@ public class CompteBancaire {
    public float convertitSolde(float tauxConversion){
       return this.solde*tauxConversion;
    }
-   /**
-   * ajoute 'ajout 'au solde si 'ajout' est positif et retourne true, sinon retourne false
-   */
    
-
-
-    /**
-   * retire 'retrait' au solde si 'retrait' est positif et retourne true, retourne false si 'retrait' est négatif
-   */
-
-   /**
-   * test si deux comptes ont memes proprietaires
-
-   * transfert d'un compte sur un autre pour un meme proprietaire
-   * le compte passé en parametre est receveur du transfert
-   * la valeur est donc positive
-   * renvoie faux si erreur
-   * vrai si le tranfert est effectué
-   * fait des affichages appropriés dans le cas d'un retour à false (3 cas)
-   */
-
-
-
-   /*
-   * retourne la conversion du solde du compte dans une monnaie dont le taux de change est passé en paramètre
-   */
-
-
 }
