@@ -44,6 +44,7 @@ Deux constructeurs sont disponibles : un avec dépôt initial, un sans (solde à
 ## Lancer le projet
 
 ```bash
-javac CompteBancaire.java TestCompteBancaire.java
+javac CompteBancaire.java
+TestCompteBancaire.java
 java TestCompteBancaire
 ```
